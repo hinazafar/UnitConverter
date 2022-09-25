@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button convertBtn;
     private TextView resultText;
     private EditText kgValue;
+    private EditText kgValue1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
         convertBtn = findViewById(R.id.convert);
         resultText = findViewById(R.id.result);
         kgValue = findViewById(R.id.kgValue);
-
         convertBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
